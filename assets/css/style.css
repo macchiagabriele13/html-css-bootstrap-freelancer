@@ -1,0 +1,6 @@
+@media screen and (min-width: 1121px) {
+    .col-md-6{
+        width: calc(100%/12 *6);
+    }
+    
+}
