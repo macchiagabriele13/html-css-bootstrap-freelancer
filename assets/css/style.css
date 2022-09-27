@@ -48,6 +48,16 @@ border-radius: 24px;
     height: 150px;
 }
 
+.px_100{
+    padding: 0 100px;
+}
+.px_100{
+    padding: 0 100px;
+}
+
+
+
+
 @media screen and (min-width: 1400px) {
     .container{
         max-width: 70%;
@@ -58,5 +68,18 @@ border-radius: 24px;
         font-weight: bold;
     }
     
+    .px_xl_15{
+        padding: 0 15rem;
+    }
+
+    .px_xl_100{
+        padding: 0;
+    }
 }
 
+@media screen and (min-width: 1121px) {
+    
+    .px_lg_100{
+        padding: 0;
+    }
+}
