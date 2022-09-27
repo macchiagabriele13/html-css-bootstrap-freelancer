@@ -1,6 +1,62 @@
-@media screen and (min-width: 1121px) {
-    .col-md-6{
-        width: calc(100%/12 *6);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar .nav-link{
+    color: white;
+    text-transform: uppercase;
+}
+
+img{
+    max-width: 100%;
+}
+
+.jumbotron img{
+    height: 250px;
+}
+
+.box_icon .line{
+width: 15%;
+height: 0.25rem;
+background-color: rgb(231, 231, 231);
+border-radius: 24px;
+}
+
+.star{
+    font-size: 1.75rem;
+    color: rgb(231, 231, 231);;
+}
+
+.section_title .star,
+.section_title h2{
+    color: black;
+    
+}
+
+.section_title .line{
+ background-color: black;
+}
+
+.about .line{
+    background-color: white;
+}
+
+.text_area{
+    height: 150px;
+}
+
+@media screen and (min-width: 1400px) {
+    .container{
+        max-width: 70%;
+    }
+
+    .display-3 {
+        font-size: 4rem;
+        font-weight: bold;
     }
     
 }
+
